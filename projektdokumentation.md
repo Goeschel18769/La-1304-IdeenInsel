@@ -7,7 +7,7 @@ Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+| 28.02.2024      | 0.0.1   | Startschuss für das Projekt Ideen Insel |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
