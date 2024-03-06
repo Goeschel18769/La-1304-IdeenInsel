@@ -38,8 +38,14 @@ Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |     Der Benutzer befindet sich auf der Anmeldeseite.         |    Der Benutzer gibt gültige Anmeldeinformationen ein und klickt auf "Anmelden".     |  Der Benutzer wird erfolgreich angemeldet und auf die Hauptseite der Anwendung weitergeleitet.                 |
+| 1.2  |Der Benutzer befindet sich auf der Anmeldeseite. |Der Benutzer gibt ungültige Anmeldeinformationen ein und klickt auf "Anmelden". | Die Anmeldung wird abgelehnt, und eine entsprechende Fehlermeldung wird angezeigt. |
+|  2.1 |Der Benutzer ist angemeldet und auf der Hauptseite der Anwendung. | Der Benutzer erstellt eine neue Notiz. | Die Notiz wird erfolgreich in der Datenbank gespeichert, und sie wird auf der Benutzeroberfläche angezeigt. |
+|  2.2 | Der Benutzer hat bereits Notizen erstellt.|Der Benutzer überprüft die Liste seiner Notizen.|Alle erstellten Notizen werden übersichtlich auf der Benutzeroberfläche angezeigt. |
+| 3.1  |Der Benutzer hat eine bestehende Notiz.|Der Benutzer bearbeitet die Inhalte der Notiz und speichert die Änderungen. | Die Änderungen werden erfolgreich gespeichert, und die aktualisierte Notiz wird auf der Oberfläche angezeigt. |
+| 4.1  | Der Benutzer hat eine bestehende Notiz.|Der Benutzer löscht die Notiz.| Die Notiz wird aus der Datenbank entfernt, und sie verschwindet von der Benutzeroberfläche.|
+| 5.1  |Der Benutzer erstellt eine Notiz auf einem Gerät. |Der Benutzer überprüft, ob die Notiz auf anderen Geräten korrekt angezeigt wird. | Die erstellte Notiz ist auf allen Geräten des Benutzers konsistent und aktuell. |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
