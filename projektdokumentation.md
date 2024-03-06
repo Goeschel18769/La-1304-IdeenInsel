@@ -57,10 +57,20 @@ Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |       |Joël|Setup der Entwicklungsumgebung|45 min|
+|  1.B |       |Ben|Erstellung der Anmeldeseite und Authentifizierungsfunktionen |    3*45 min |
+|  1.C |       |Janick|Testfallerstellung und -durchführung für Anmeldeseite |        2*45 min |
+| 2.A  |       | Joël |Implementierung der Notizerstellungsfunktion|3*45 min|
+| 2.B  |       |Janick |Implementierung der Notizanzeigefunktion |3*45 min |
+| 2.C  |       | Ben |Testfallerstellung und -durchführung für Notizerstellung und -anzeige |2*45 min |
+| 3.A  |       | Ben |Implementierung der Notizbearbeitungsfunktion |3*45 min|
+| 3.B  |       | Janick|Implementierung der Notizlöschungsfunktion|3*45 min|
+| 3.C  |       | Joël | Testfallerstellung und -durchführung für Notizbearbeitung und -löschung |2*45 min |
+| 4.A  |       | Janick  |Test des Gesamtsystems | 45 min |
+| 4.B  |       | Ben|Dokumentation der gesamten Entwicklung | 45min |
 
-Total: 
+
+Total: 24 Arbeitspakete
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
