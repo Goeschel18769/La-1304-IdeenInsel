@@ -23,8 +23,14 @@ Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |       Muss          |   Qualität   | Als Benutzer möchte ich mich in der Anwendung anmelden können, um meine Notizen personalisiert zu verwalten. |
+| 2  |       Muss          |   Funktional   |      Als Benutzer möchte ich eine neue Notiz erstellen können, um meine Gedanken und Informationen festzuhalten.                              |
+| 3  |        Muss         |  Funktional    |               Als Benutzer möchte ich meine existierenden Notizen anzeigen können, um schnell auf meine Informationen zugreifen zu können.                     |
+| 4  |       Muss          |  Qualität    |  Als Benutzer möchte ich eine vorhandene Notiz bearbeiten können, um Aktualisierungen vorzunehmen.                                  |
+| 5  |       Muss          |  Qualität    |  Als Benutzer möchte ich eine Notiz löschen können, wenn sie nicht mehr benötigt wird.                                  |
+| 6  |        Kann         |  Qualität    |       Als Benutzer möchte ich meine Notizen nach Kategorien oder Tags organisieren können, um sie besser zu strukturieren.                             |
+| 7  |      Muss           |  Qualität    |   Als Benutzer möchte ich meine Notizen über verschiedene Geräte synchronisieren können, um flexibel arbeiten zu können.                                 |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
