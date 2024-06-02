@@ -97,7 +97,7 @@ Wir haben uns für eine WebApp mit React und Firebase (Firestore) entschieden.
 
 
 
-## 6 Auswerten
+
 
 
 
