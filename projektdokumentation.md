@@ -21,7 +21,7 @@ Die Ideeninsel producer Joël Haldimann, Ben Müller und Janick Hurschler
 
 ### 1.1 Ihr Projekt
 
-Wir haben uns dazu entschieden eine Webesite zu machen in denne Leute ihre Ideen und Notizen speichern können um andere Leute auf Ideen zu bringen.
+Wir haben uns dazu entschieden eine Website zu machen in der Leute ihre Ideen und Notizen speichern können, um andere Leute auf Ideen zu bringen.
 
 
 ### 1.2 User Stories
