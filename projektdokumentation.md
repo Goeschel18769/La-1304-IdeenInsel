@@ -73,7 +73,7 @@ Wir haben uns dazu entschieden eine Webesite zu machen in denne Leute ihre Ideen
 Total: 24 Arbeitspakete
 
 ## 3 Entscheiden
-
+Wir haben uns für eine WebAPp mit React und Firebase (Firestore) entschieden.
 
 ## 4 Realisieren
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
