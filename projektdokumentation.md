@@ -74,7 +74,6 @@ Total: 24 Arbeitspakete
 
 ## 3 Entscheiden
 
-✍️ 
 
 ## 4 Realisieren
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
