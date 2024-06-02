@@ -3,11 +3,19 @@
 
 Die Ideeninsel producer Joël Haldimann, Ben Müller und Janick Hurschler
 
-| Datum | Version | Zusammenfassung                                              |
+# | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 28.02.2024      | 0.0.1   | Startschuss für das Projekt Ideen Insel |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 06.03.2024      | 0.0.2   |                                                              |
+| 13.03.2024      | 0.0.3   |                                                              |
+| 20.03.2024      | 0.0.4   |                                                              |
+| 27.03.2024      | 0.0.5   |                                                              |
+| 03.04.2024      | 0.0.6   |                                                              |
+| 10.04.2024      | 0.0.7   |                                                              |
+| 17.04.2024      | 0.0.8   |                                                              |
+| 24.04.2024      | 0.0.9   |                                                              |
+| 01.05.2024      | 0.0.10  |                                                              |
+| 08.05.2024      | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
