@@ -1,9 +1,7 @@
-hôla
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
+Die Ideeninsel producer Joël Haldimann, Ben Müller und Janick Hurschler
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -15,43 +13,38 @@ Die Ideen Insel Machenden, Joël Haldimann, Bn Müll, Janc
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Wir haben uns dazu entschieden eine Webesite zu machen in denne Leute ihre Ideen und Notizen speichern können um andere Leute auf Ideen zu bringen.
 
-✍️ Erklären Sie genauer in 50 bis 100 Wörtern, was genau Sie in diesem Projekt erreichen möchten, und was Sie dabei zu lernen hoffen.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       Muss          |   Qualität   | Als Benutzer möchte ich mich in der Anwendung anmelden können, um meine Notizen personalisiert zu verwalten. |
-| 2  |       Muss          |   Funktional   |      Als Benutzer möchte ich eine neue Notiz erstellen können, um meine Gedanken und Informationen festzuhalten.                              |
-| 3  |        Muss         |  Funktional    |               Als Benutzer möchte ich meine existierenden Notizen anzeigen können, um schnell auf meine Informationen zugreifen zu können.                     |
-| 4  |       Muss          |  Qualität    |  Als Benutzer möchte ich eine vorhandene Notiz bearbeiten können, um Aktualisierungen vorzunehmen.                                  |
-| 5  |       Muss          |  Qualität    |  Als Benutzer möchte ich eine Notiz löschen können, wenn sie nicht mehr benötigt wird.                                  |
-| 6  |        Kann         |  Qualität    |       Als Benutzer möchte ich meine Notizen nach Kategorien oder Tags organisieren können, um sie besser zu strukturieren.                             |
-| 7  |      Muss           |  Qualität    |   Als Benutzer möchte ich meine Notizen über verschiedene Geräte synchronisieren können, um flexibel arbeiten zu können.                                 |
+| 1    |       Muss          |   Qualität   | Als Benutzer möchte ich eine neue Notiz erstellen können, um meine Gedanken und Informationen festzuhalten. |
+| 2  |       Muss          |   Funktional   |      Als Benutzer möchte ich meine existierenden Notizen anzeigen können, um schnell auf meine Informationen zugreifen zu können.                              |
+| 3  |        Muss         |  Funktional    |  Als Benutzer möchte ich, dass ich alle Notizen die auf der App gemacht werden sehen können, dass ich mehr Ideen bekomme                            |
+| 4  |       Kann          |  Qualität    |  Als Benutzer möchte ich eine Notiz löschen können, wenn sie nicht mehr benötigt wird.                                  |
+| 5  |       Kann          |  Funktional    |  Als Benutzer möchte ich, dass die Anwendung schnell und reibungslos funktioniert, um eine gute Benutzererfahrung zu gewährleisten.                              |
+| 6  |       Kann          |  Qualität    |  Als Benutzer möchte ich ein einfach zu verstehendes Interface haben, dass ich die App ohne Probleme bedienen kann                          |
 
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
+
+
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |     Der Benutzer befindet sich auf der Anmeldeseite.         |    Der Benutzer gibt gültige Anmeldeinformationen ein und klickt auf "Anmelden".     |  Der Benutzer wird erfolgreich angemeldet und auf die Hauptseite der Anwendung weitergeleitet.                 |
-| 1.2  |Der Benutzer befindet sich auf der Anmeldeseite. |Der Benutzer gibt ungültige Anmeldeinformationen ein und klickt auf "Anmelden". | Die Anmeldung wird abgelehnt, und eine entsprechende Fehlermeldung wird angezeigt. |
-|  2.1 |Der Benutzer ist angemeldet und auf der Hauptseite der Anwendung. | Der Benutzer erstellt eine neue Notiz. | Die Notiz wird erfolgreich in der Datenbank gespeichert, und sie wird auf der Benutzeroberfläche angezeigt. |
-|  2.2 | Der Benutzer hat bereits Notizen erstellt.|Der Benutzer überprüft die Liste seiner Notizen.|Alle erstellten Notizen werden übersichtlich auf der Benutzeroberfläche angezeigt. |
-| 3.1  |Der Benutzer hat eine bestehende Notiz.|Der Benutzer bearbeitet die Inhalte der Notiz und speichert die Änderungen. | Die Änderungen werden erfolgreich gespeichert, und die aktualisierte Notiz wird auf der Oberfläche angezeigt. |
-| 4.1  | Der Benutzer hat eine bestehende Notiz.|Der Benutzer löscht die Notiz.| Die Notiz wird aus der Datenbank entfernt, und sie verschwindet von der Benutzeroberfläche.|
-| 5.1  |Der Benutzer erstellt eine Notiz auf einem Gerät. |Der Benutzer überprüft, ob die Notiz auf anderen Geräten korrekt angezeigt wird. | Die erstellte Notiz ist auf allen Geräten des Benutzers konsistent und aktuell. |
+
+| US-№ | Testfall-№ | Beschreibung                                                                                                 | Erwartetes Ergebnis                                                                                                  |
+| ---- | ---------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1    | 1.1        | Erstelle eine neue Notiz mit dem Text "Einkaufsliste".                                                       | Die neue Notiz "Einkaufsliste" wird in der Liste der Notizen angezeigt.                                              |
+| 1    | 1.2        | Erstelle eine neue Notiz ohne Textinhalt.                                                                    | Die Anwendung lässt keine leere Notiz erstellen.                                        |
+| 2    | 2.1        | Öffne die App und überprüfe, ob bestehende Notizen angezeigt werden.                                         | Alle zuvor erstellten Notizen werden in der Liste angezeigt.                                                         |
+| 2    | 2.2        | Erstelle mehrere Notizen und prüfe, ob alle neuen Notizen in der Liste angezeigt werden.                    | Alle erstellten Notizen werden korrekt und vollständig in der Liste angezeigt.                                        |
+| 3    | 3.1        | Erstelle eine Notiz und prüfe, ob sie auf der Hauptseite der App angezeigt wird.                             | Die erstellte Notiz wird auf der Hauptseite angezeigt.                                                               |
+| 4    | 4.1        | Lösche eine vorhandene Notiz.                                                                                | Die gelöschte Notiz wird nicht mehr in der Liste der Notizen angezeigt.                                               |
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme
-
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
 ## 2 Planen
 
