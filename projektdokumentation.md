@@ -82,11 +82,31 @@ Total: 24 Arbeitspakete
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
-
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |       | Joël      | 45 min        |                   |
+| 1.B  |       | Ben       | 3*45 min      |                   |
+| 1.C  |       | Janick    | 2*45 min      |                   |
+| 2.A  |       | Joël      | 3*45 min      |                   |
+| 2.B  |       | Janick    | 3*45 min      |                   |
+| 2.C  |       | Ben       | 2*45 min      |                   |
+| 3.A  |       | Ben       | 3*45 min      |                   |
+| 3.B  |       | Janick    | 3*45 min      |                   |
+| 3.C  |       | Joël      | 2*45 min      |                   |
+| 4.A  |       | Janick    | 45 min        |                   |
+| 4.B  |       | Ben       | 45 min        |                   |
+
+## 🗒️ Answer
+Die Tabelle wurde entsprechend angepasst, indem die Fristen durch Datum, die Beschreibung durch geplante Zeit ersetzt und die tatsächliche Zeit hinzugefügt wurden.
+
+## 🌐 Sources
+1. [docs.celonis.com - MERGE_EVENTLOG - MERGE_EVENTLOG_DISTINCT](https://docs.celonis.com/en/merge_eventlog---merge_eventlog_distinct.html)
+2. [community.sap.com - Solved: internal tables merging](https://community.sap.com/t5/enterprise-resource-planning-q-a/internal-tables-merging/qaq-p/1012423)
+3. [learn.microsoft.com - MERGE (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/merge-transact-sql?view=sql-server-ver16)
+4. [mathworks.com - MATLAB join](https://www.mathworks.com/help/matlab/ref/table.join.html)
+5. [cloud.google.com - BigQuery release notes](https://cloud.google.com/bigquery/docs/release-notes)
+6. [eurocontrol.int - THE MANUAL](https://www.eurocontrol.int/sites/default/files/publication/files/airport-cdm-manual-2017.PDF)
+</response>
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
