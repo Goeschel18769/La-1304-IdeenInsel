@@ -1,21 +1,13 @@
 # Projekt-Dokumentation
 
 
-Die Ideeninsel producer Joël Haldimann, Ben Müller und Janick Hurschler
+Die Ideeninsel-Producer: Joël Haldimann, Ben Müller und Janick Hurschler.
 
  | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 28.02.2024      | 0.0.1   | Startschuss für das Projekt Ideen Insel |
-| 06.03.2024      | 0.0.2   |                                                              |
-| 13.03.2024      | 0.0.3   |                                                              |
-| 20.03.2024      | 0.0.4   |                                                              |
-| 27.03.2024      | 0.0.5   |                                                              |
-| 03.04.2024      | 0.0.6   |                                                              |
-| 10.04.2024      | 0.0.7   |                                                              |
-| 17.04.2024      | 0.0.8   |                                                              |
-| 24.04.2024      | 0.0.9   |                                                              |
-| 01.05.2024      | 0.0.10  |                                                              |
-| 08.05.2024      | 1.0.0   |                                                              |
+| 06.03.2024      | 0.0.2   |   Implementieren von Firebase SDK und Erstellung des Grundgerüstes.                                                           |
+| 08.05.2024      | 1.0.0   |   Vervollständigen des Grundgerüstes und Erstellen des Designs und des GUI's                                                           |
 
 ## 1 Informieren
 
@@ -58,37 +50,36 @@ Wir haben uns dazu entschieden eine Website zu machen in der Leute ihre Ideen un
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |Joël|Setup der Entwicklungsumgebung|45 min|
-|  1.B |       |Ben|Erstellung der Anmeldeseite und Authentifizierungsfunktionen |    3*45 min |
-|  1.C |       |Janick|Testfallerstellung und -durchführung für Anmeldeseite |        2*45 min |
-| 2.A  |       | Joël |Implementierung der Notizerstellungsfunktion|3*45 min|
-| 2.B  |       |Janick |Implementierung der Notizanzeigefunktion |3*45 min |
-| 2.C  |       | Ben |Testfallerstellung und -durchführung für Notizerstellung und -anzeige |2*45 min |
-| 3.A  |       | Ben |Implementierung der Notizbearbeitungsfunktion |3*45 min|
-| 3.B  |       | Janick|Implementierung der Notizlöschungsfunktion|3*45 min|
-| 3.C  |       | Joël | Testfallerstellung und -durchführung für Notizbearbeitung und -löschung |2*45 min |
-| 4.A  |       | Janick  |Test des Gesamtsystems | 45 min |
-| 4.B  |       | Ben|Dokumentation der gesamten Entwicklung | 45min |
+| 1.A  |  28.02.2024      |Joël|Setup der Entwicklungsumgebung|45 min|
+|  1.B |  06.03.2024      |Ben|Testfallerstellung und -durchführung für Anmeldeseite |        2*45 min |
+| 2.A  |  13.03.2024      | Joël |Implementierung der Notizerstellungsfunktion|3*45 min|
+| 2.B  |  20.03.2024       |Janick |Implementierung der Notizanzeigefunktion |3*45 min |
+| 2.C  |  27.03.2024     | Ben |Testfallerstellung und -durchführung für Notizerstellung und -anzeige |2*45 min |
+| 3.A  |  10.04.2024      | Ben |Implementierung der Notizbearbeitungsfunktion |3*45 min|
+| 3.B  |   17.04.2024      | Janick|Implementierung der Notizlöschungsfunktion|3*45 min|
+| 3.C  |   24.04.2024     | Joël | Testfallerstellung und -durchführung für Notizbearbeitung und -löschung |2*45 min |
+| 4.A  |   01.05.2024    | Janick  |Test des Gesamtsystems | 45 min |
+| 4.B  |   08.05.2024     | Ben|Dokumentation der gesamten Entwicklung | 2*45min |
 
-Total: 24 Arbeitspakete
+Total: 22 Arbeitspakete
 
 ## 3 Entscheiden
-Wir haben uns für eine WebAPp mit React und Firebase (Firestore) entschieden.
+Wir haben uns für eine WebApp mit React und Firebase (Firestore) entschieden.
 
 ## 4 Realisieren
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       | Joël      | 45 min        |                   |
-| 1.B  |       | Ben       | 3*45 min      |                   |
-| 1.C  |       | Janick    | 2*45 min      |                   |
-| 2.A  |       | Joël      | 3*45 min      |                   |
-| 2.B  |       | Janick    | 3*45 min      |                   |
-| 2.C  |       | Ben       | 2*45 min      |                   |
-| 3.A  |       | Ben       | 3*45 min      |                   |
-| 3.B  |       | Janick    | 3*45 min      |                   |
-| 3.C  |       | Joël      | 2*45 min      |                   |
-| 4.A  |       | Janick    | 45 min        |                   |
-| 4.B  |       | Ben       | 45 min        |                   |
+| AP-№ | Datum      | Zuständig | geplante Zeit | tatsächliche Zeit |
+| ---- | ---------- | --------- | ------------- | ----------------- |
+| 1.A  | 28.02.2024 | Joël      | 45 min        | 45 min            |
+| 1.C  | 06.03.2024 | Janick    | 2*45 min      | 2*45 min          |
+| 2.A  | 13.03.2024 | Joël      | 3*45 min      | 3*45 min          |
+| 2.B  | 20.03.2024 | Janick    | 3*45 min      | 3*45 min          |
+| 2.C  | 27.03.2024 | Ben       | 2*45 min      | 2*45 min          |
+| 3.A  | 10.04.2024 | Ben       | 3*45 min      | 3*45 min          |
+| 3.B  | 17.04.2024 | Janick    | 3*45 min      | 3*45 min          |
+| 3.C  | 24.04.2024 | Joël      | 2*45 min      | 2*45 min          |
+| 4.A  | 01.05.2024 | Janick    | 45 min        | 45 min            |
+| 4.B  | 08.05.2024 | Ben       | 2*45 min      | 2*45 min          |
+
 
 
 
